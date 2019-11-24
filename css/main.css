@@ -1,14 +1,19 @@
 html {
   background-color: #dbd6cf;
-  font: font-family: 'Bevan';
-  margin: .3em;
+  text-align: center;
 }
 h1 {
+  font: font-family: 'Bevan';
+  font-size: 1.5rem;
+  margin: .3em;
+  text-align: center;
   color: #fff;
   background-color: #595652;
-
+  padding: 0.0em 0.75em;
 }
 span {
+  font:'sans-serif'
+  color: #fff;
   background-color: #713837;
-
+  border-radius: 10px;
 }
