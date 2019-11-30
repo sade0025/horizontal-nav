@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
+  font-family: Bevan, sans-serif;
   line-height: 1.5;
 }
 
@@ -10,41 +11,65 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
-  background-color: #79756f;
-  border-radius: 10px;
 }
 
-.top {
-  margin: .3em;
-  padding: .6em .5em .75em;
+header {
+  display: block;
+  margin: 0;
+  padding: .6em;
   background-color: #79756f;
+  border-top: solid #595652 3px;
+  border-bottom: solid #595652 3px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: .5em .75em;
+  background-color: #713837;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.header {
+  display: block;
+  margin: 0;
+  color: #79756f;
 }
 
 h1 {
+  text-align: center;
   color: #fff;
-  font-family: " Bevan ";
+  margin: 0;
+  font-family: Bevan, serif;
 }
 
-.top li {
-  display: inline-block;
-  margin: .3em;
-  padding: .6em .5em .75em;
-  background-color: #713837;
+nav {
+  text-align: center;
+  display: block;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: sans-serif;
 }
 
-.top a {
-  display: inline;
-  padding: .6em .5em .75em;
-  background-color: #713837;
-  border-radius: 4px;
+nav a:hover {
+  background-color: #f33;
   color: #fff;
   text-decoration: none;
 }
 
-.top a:hover {
-  background-color: #f33;
-  color: #fff;
+header ul {
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.planets {
+  display: inline-block;
+  text-align: center;
+}
+
+body ul li {
+  color: white;
 }
